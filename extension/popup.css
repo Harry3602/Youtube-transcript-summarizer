@@ -1,0 +1,48 @@
+
+
+#summarize {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #87CEEB; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover and click effects */
+  }
+  
+  #summarize:hover {
+    /* Button Hover Styles */
+    transform: translateY(-2px); /* Move the button slightly up on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Change shadow on hover */
+  }
+  
+  #summarize:active {
+    /* Button Active/Click Effect */
+    animation: clickEffect 0.4s ease; /* Animation for the click effect */
+  }
+  
+  /* Keyframes for the clicking animation */
+  @keyframes clickEffect {
+    0%, 100% {
+      transform: scale(1); /* Original size */
+    }
+    50% {
+      transform: scale(0.95); /* Shrink */
+    }
+  }
+  
+  #output {
+    background-color: #f2f2f2;  
+    width: 300px;                
+    padding: 10px;               
+    border: 1px solid #ddd;     
+    font-family: sans-serif;
+  }
+  
+  
